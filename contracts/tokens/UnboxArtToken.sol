@@ -4,7 +4,7 @@ pragma solidity 0.6.12;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 // This token is owned by Timelock.
-contract BLES is ERC20("Blind Boxes Token", "BLES") {
+contract UnboxArtToken is ERC20("Unbox.Art", "UBA") {
 
     constructor() public {
         _mint(_msgSender(), 1e26);  // 100 million, 18 decimals
